@@ -674,6 +674,10 @@ video {
   width: 200%;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -696,6 +700,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-1 {
@@ -1001,6 +1009,14 @@ video {
 
   .md\:block {
     display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:h-\[800px\] {
