@@ -1118,6 +1118,10 @@ video {
     height: 1000px;
   }
 
+  .xl\:h-screen {
+    height: 100vh;
+  }
+
   .xl\:w-2\/3 {
     width: 66.666667%;
   }
