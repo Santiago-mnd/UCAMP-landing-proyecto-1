@@ -16,12 +16,12 @@
   <body class="bg-zinc-200">
     <header class="w-full h-28 bg-zinc-900 flex justify-between items-center">
       <div class="w-11/12 mx-auto flex justify-between items-center md:w-4/5">
-        <div class="flex items-center cursor-pointer">
+        <a href="/docs/" class="flex items-center cursor-pointer">
           <span>
             <img src="/docs/img/sol.svg" alt="" width="25" />
           </span>
           <h1 class="font-bold text-2xl text-zinc-200 font-josef">Another</h1>
-        </div>
+        </a>
         <div class="w-3/5 md:w-2/5 lg:w-2/4">
           <input
             class="w-full h-full px-2 py-2 border-2 border-transparent rounded-lg text-sm focus:outline-none text-center md:text-base"
@@ -32,7 +32,10 @@
         <nav class="hidden md:block md:w-1/3 lg:w-1/4">
           <ul class="flex justify-between items-center font-bold gap-1">
             <li>
-              <a href="#" class="text-zinc-200 hover:text-rose-600">
+              <a
+                href="/docs/registro.html"
+                class="text-zinc-200 hover:text-rose-600"
+              >
                 Regístrate
               </a>
             </li>
@@ -67,6 +70,9 @@
       <div
         class="w-4/5 border-zinc-200 border h-[0.1px] md:w-3/4 lg:w-1/2"
       ></div>
+      <a href="#planes" class="bg-zinc-900 p-2 rounded-md text-zinc-200 mt-4">
+        ¡Contrata ahora!
+      </a>
     </main>
     <section
       class="w-full h-[400px] -mt-20 pt-12 relative overflow-hidden bg-rose-600 flex justify-between items-center before:bg-zinc-200 before:transform before:content-[''] before:h-20 before:w-[120%] before:absolute before:-top-16 before:left-0 before:rotate-[4deg] md:before:h-32 md:pt-20 2xl:-mt-0 2xl:before:h-40 2xl:before:rotate-2"
@@ -84,20 +90,103 @@
         <p class="text-sm">-Ed Maverick</p>
       </div>
     </section>
-    <section class="bg-zinc-900 w-full h-[400px]">
-      <div class="flex flex-col justify-center items-center p-20">
+    <section class="bg-zinc-900 w-full" id="planes">
+      <div class="w-full h-full flex flex-col justify-center items-center p-20">
         <h2 class="text-3xl text-zinc-200 font-bold">Planes</h2>
-        <div class="flex flex-wrap">
-          <div class="w-32 bg-zinc-200">
-            <p>Gratis</p>
-            <p>
-              Básicamente cada vez que cambies una canción te voy a mandar 4
-              anuncios seguidos. :D
+        <div
+          class="w-full flex flex-col items-center justify-between md:gap-4 lg:flex-row md:mt-4"
+        >
+          <article
+            class="w-80 flex flex-col justify-between items-center mt-4 bg-zinc-200 p-4 rounded-md border border-rose-600 duration-300 ease-out hover:scale-105 lg:w-1/3 lg:h-[500px] lg:mt-0 lg:ml-4"
+          >
+            <h3 class="font-bold text-2xl">Gratis</h3>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">
+              Básicamente cada vez que cambies una canción te voy a mandar
+              cuatro anuncios seguidos. <span>😇</span>
             </p>
-            <p>Pero obvio es gratis.</p>
-          </div>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">Pero obvio es gratis.</p>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <button class="bg-rose-600 p-2 rounded-md text-zinc-200 mt-2">
+              ¡Comienza aquí!
+            </button>
+          </article>
+          <article
+            class="w-80 flex flex-col justify-between items-center mt-4 bg-zinc-200 p-4 rounded-md border border-rose-600 duration-300 ease-out hover:scale-105 lg:w-1/3 lg:h-[500px] lg:mt-0 lg:ml-4"
+          >
+            <h3 class="font-bold text-2xl">Ya no es gratis</h3>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">
+              Ya no tendrás que escuchar anuncios. Además, podrás descargar tu
+              música y escucharla en cualquier dispositivo.
+            </p>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">Pero obvio cuesta $99 al mes.</p>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <button class="bg-rose-600 p-2 rounded-md text-zinc-200 mt-2">
+              ¡Comienza aquí!
+            </button>
+          </article>
+          <article
+            class="w-80 flex flex-col justify-between items-center mt-4 bg-zinc-200 p-4 rounded-md border border-rose-600 duration-300 ease-out hover:scale-105 lg:w-1/3 lg:h-[500px] lg:mt-0 lg:ml-4"
+          >
+            <h3 class="font-bold text-2xl">Plan compartido</h3>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">
+              Aquí debería estar el plan familiar, pero todos sabemos que lo
+              usarás con todos, menos con tu familia. Tienes exactamente los
+              mismos beneficioes que el plan "Ya no es gratis", pero ahora
+              podrás agregar hasta 5 cuentas diferentes.
+            </p>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <p class="text-xl">Pero obvio cuesta $149 al mes .</p>
+            <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+            <button class="bg-rose-600 p-2 rounded-md text-zinc-200 mt-2">
+              ¡Comienza aquí!
+            </button>
+          </article>
         </div>
       </div>
     </section>
+    <footer class="w-full h-auto bg-zinc-900 text-zinc-200">
+      <div class="w-full h-full flex flex-col justify-center items-center">
+        <div class="w-full flex flex-col justify-center items-center">
+          <h2 class="text-3xl text-zinc-200 font-bold">¿Quieres saber más?</h2>
+          <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+          <p class="text-xl text-center my-4">
+            ¡No te preocupes! Te enviaremos un correo con toda la información
+            que necesites.
+          </p>
+          <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+          <button class="bg-rose-600 p-2 rounded-md text-zinc-200 mt-2">
+            ¡Envíame un correo!
+          </button>
+        </div>
+      </div>
+      <div class="w-full border-rose-600 mt-2 border h-[0.1px]"></div>
+      <nav class="bg-zinc-900 py-4">
+        <ul class="w-full flex justify-center items-center">
+          <li class="w-full flex justify-center items-center">
+            <a href="#">
+              <img src="img/facebook.svg" alt="Facebook" />
+            </a>
+          </li>
+          <li class="w-full flex justify-center items-center">
+            <a href="#">
+              <img src="img/instagram.svg" alt="Instagram" />
+            </a>
+          </li>
+          <li class="w-full flex justify-center items-center">
+            <a href="#">
+              <img src="img/twitter.svg" alt="Twitter" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="w-full flex justify-center items-center">
+        <p><span class="font-josef text-center">Another</span> 2022 &copy;</p>
+      </div>
+    </footer>
   </body>
 </html>
