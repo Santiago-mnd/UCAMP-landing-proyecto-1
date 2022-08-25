@@ -1,5 +1,7 @@
 # Proyecto 1 - Landing page de venta
 
+Para acceder a la página de registro desde la visa mobile se puede dar click a cualquier botón de los planes.
+
 ### Deploy: https://santiago-mnd.github.io/UCAMP-landing-proyecto-1/
 
 `Utilicé Tailwind por mera comodidad.`
