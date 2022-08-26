@@ -4,7 +4,7 @@
 
 ### Deploy: https://santiago-mnd.github.io/UCAMP-landing-proyecto-1/
 
-`Utilicé Tailwind por mera comodidad.`
+`Utilicé Tailwind por mera comodidad. Pedí permiso antes de utilizarlo.`
 
 ## Creación de cero con enfoque Mobile First.
 - Responsive utilizando como referencia iPhoneX hasta llegar a resolución 1080p.
