@@ -1,6 +1,6 @@
 # Proyecto 1 - Landing page de venta
 
-### Para acceder a la página de registro desde la vista mobile se puede dar click a cualquier botón de los planes.
+### Sólo la redirección a registro es funcional, los demás son solo parte del esqueleto. Para acceder desde la vista mobile, se puede dar click en cualquier botón de la sección de los planes.
 
 ### Deploy: https://santiago-mnd.github.io/UCAMP-landing-proyecto-1/
 
